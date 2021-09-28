@@ -49,13 +49,15 @@ function Header() {
 }
 
 const StyledHeader = styled.div`
-  max-width: 1440px;
   width: 100%;
   position: fixed;
+  margin: auto;
   top: 0;
+  z-index: 5;
   background-color: #202020;
-  border-bottom: 1px solid #2f2f2f;
+  border-bottom: 1px solid #515151;
   .container {
+    margin: auto;
     padding: 8px 20px;
     display: flex;
     align-items: center;
@@ -75,20 +77,25 @@ const StyledHeader = styled.div`
       justify-content: center;
       align-items: center;
       input {
+        &:focus {
+          outline: 1px solid #0085ff;
+        }
+        color: white;
         flex: 1;
         padding: 12px 10px;
+        font-size: 16px;
         background: #191919;
-        border: none;
+        border: 1px solid #2d2d2d;
       }
       .search-icon {
-        border: 1px solid #282828;
+        border: 1px solid #2d2d2d;
         border-radius: 0px 3px 3px 0px;
         height: 40px;
         display: flex;
         padding: 0px 10px;
         align-items: center;
         justify-content: center;
-        background-color: #282828;
+        background-color: #2d2d2d;
       }
       .mic-icon {
         margin: 0px 10px;

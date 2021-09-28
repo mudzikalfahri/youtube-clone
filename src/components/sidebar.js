@@ -47,7 +47,7 @@ const StyledSidebar = styled.div`
   align-items: center;
   position: fixed;
   top: 0;
-  left: 0;
+  z-index: 10;
   width: 80px;
   height: 100vh;
   background-color: #202020;
@@ -55,7 +55,6 @@ const StyledSidebar = styled.div`
     width: 100%;
     margin-top: 20px;
     .square-icon {
-      line-height: 0px;
       display: flex;
       flex-direction: column;
       font-size: 10px;
@@ -65,6 +64,9 @@ const StyledSidebar = styled.div`
       background-color: #202020;
       justify-content: center;
       align-items: center;
+      p {
+        margin-top: 5px;
+      }
       &:hover {
         background-color: #3d3d3d;
       }
