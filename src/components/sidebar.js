@@ -41,7 +41,7 @@ function SideBar() {
 }
 
 const StyledSidebar = styled.div`
-  padding-top: 10px;
+  padding-top: 12px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -76,8 +76,8 @@ const StyledSidebar = styled.div`
 
 const CircleIcon = styled.div`
   padding: 2px;
-  width: 35px;
-  height: 35px;
+  width: 38px;
+  height: 38px;
   display: flex;
   align-items: center;
   justify-content: center;

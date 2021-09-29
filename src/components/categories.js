@@ -9,6 +9,10 @@ function Categories() {
     "Tips Kecantikan",
     "Sepak bola",
     "Pariwisata",
+    "Video Mix",
+    "Tips Kecantikan",
+    "Sepak bola",
+    "Pariwisata",
   ];
   return (
     <StyledCategories className="cat-nav">

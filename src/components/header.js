@@ -90,7 +90,7 @@ const StyledHeader = styled.div`
       .search-icon {
         border: 1px solid #2d2d2d;
         border-radius: 0px 3px 3px 0px;
-        height: 40px;
+        height: 44px;
         display: flex;
         padding: 0px 10px;
         align-items: center;
@@ -118,8 +118,8 @@ const StyledHeader = styled.div`
 
 const CircleIcon = styled.div`
   padding: 2px;
-  width: 35px;
-  height: 35px;
+  width: 38px;
+  height: 38px;
   margin-right: 10px;
   display: flex;
   align-items: center;
